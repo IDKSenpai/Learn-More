@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capcut by Learn More!!</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Khmer&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" href="../css/videos.css" />
+  <link rel="icon" href="../img/capcut.[random].jpg" />
+  <body>
+    <h1>Capcut</h1>
+    <div class="video-container">
+      <video id="mainVideo" controls controlslist="nodownload">
+        <source src="video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div class="videos">
+      <h3>Lesson1: Aspect Ratio</h3>
+      <a
+        href="../videos/Capcut/$L.[1].MP4"
+        onclick="playLesson('../videos/Capcut/$L.[1].MP4', this, event)"
+        >Aspect Ratio (Screen Size: Facebook & Instagram: 1:1, Tiktok: 9:16,
+        Youtube: 16:9) <span>video</span></a
+      ><br />
+      <h3>Lesson2: Split</h3>
+      <a
+        href="../videos/Capcut/$L.[2].MP4"
+        onclick="playLesson('../videos/Capcut/$L.[2].MP4', this, event)"
+        >របៀបកាត់ផ្នែកដែលមិនត្រូវការចោល (Split) <span>video</span></a
+      >
+      <a
+        class="for-download"
+        href="../videos/Capcut/Excersice/$p.[1].MP4"
+        download="Practice Split"
+        ><i>វីដេអូអនុវត្តន៍ Split</i
+        ><span
+          ><i class="fa fa-hand-o-right" style="margin-right: 0.5rem"></i
+          >Download</span
+        ></a
+      >
+      <br />
+      <h3>Lesson3: Text</h3>
+      <a href="lesson3.mp4" onclick="playLesson('lesson3.mp4', this, event)"
+        >របៀបដាក់អក្សរជាភាសាអង់គ្លេស<span>video</span></a
+      >
+      <a href="lesson3.mp4" onclick="playLesson('lesson3.mp4', this, event)"
+        >របៀបដាក់អក្សរជាភាសាខ្មែរ<span>video</span></a
+      >
+      <a href="lesson3.mp4" onclick="playLesson('lesson3.mp4', this, event)"
+        >របៀបដាក់ Style អក្សរ<span>video</span></a
+      >
+      <br />
+      <h3>លំហាត់អនុវត្តន៍</h3>
+      <a href="lesson4.mp4" onclick="playLesson('lesson4.mp4', this, event)"
+        >Video ត្រូវការតអោយដូច <span>video</span></a
+      >
+      <a href="lesson3.mp4" download="">វីដេអូ<span>Download</span></a>
+    </div>
+
+    <script src="../js/videos.js"></script>
+  </body>
+</html>

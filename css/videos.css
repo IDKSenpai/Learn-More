@@ -79,3 +79,22 @@ video {
 .for-download {
   color: black !important;
 }
+
+.warning {
+  font-weight: bold;
+  color: red;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.note span {
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.note {
+  font-size: 18px;
+  color: black;
+}

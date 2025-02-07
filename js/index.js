@@ -3,7 +3,9 @@ const validateLogin = () => {
   var password = document.getElementById("password").value;
 
   if (username === "admin" && password === "123") {
-    window.location.href = "html/home_page.html?t=" + new Date().getTime();
+    history.replaceState(null, null, "../html/home_page.html");
+    window.location.href =
+      "https://your-username.github.io/repository-name/html/home_page.html";
     return true;
   }
 

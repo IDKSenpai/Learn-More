@@ -5,8 +5,13 @@ const validateLogin = (event) => {
   var password = document.getElementById("password").value;
 
   if (username === "admin" && password === "123") {
-    history.replaceState(null, null, "html/home_page.html");
-    window.location.href = "html/home_page.html";
+    history.replaceState(
+      null,
+      null,
+      "https://IDKSenpai.github.io/Learn-More-/html/home_page.html"
+    );
+    window.location.href = window.location.href =
+      "https://IDKSenpai.github.io/Learn-More-/html/home_page.html";
     return true;
   }
 

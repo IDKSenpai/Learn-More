@@ -5,6 +5,9 @@ const validateLogin = (event) => {
   var password = document.getElementById("password").value;
 
   if (username === "admin" && password === "123") {
+    // Correct login, set sessionStorage to indicate that the user is logged in
+    sessionStorage.setItem("isLoggedIn", "true");
+
     history.replaceState(
       null,
       null,

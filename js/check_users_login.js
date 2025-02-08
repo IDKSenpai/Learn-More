@@ -9,7 +9,7 @@ function checkLogin() {
 
   if (!loggedIn) {
     // If not logged in, redirect to login page
-    window.location.href = "https://idksenpai.github.io/Learn-More-/"; // Change to your login page URL
+    window.location.href = "https://idksenpai.github.io/Learn-More/"; // Change to your login page URL
   } else {
     // If logged in, set up inactivity detection
     resetInactivityTimer();
@@ -29,7 +29,7 @@ function resetInactivityTimer() {
 // Log the user out automatically after inactivity
 function logout() {
   sessionStorage.removeItem("isLoggedIn");
-  window.location.href = "https://idksenpai.github.io/Learn-More-/"; // Redirect to login page after automatic logout
+  window.location.href = "https://idksenpai.github.io/Learn-More/"; // Redirect to login page after automatic logout
 }
 
 checkLogin(); // Call the checkLogin function to enforce login and inactivity detection

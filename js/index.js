@@ -11,10 +11,10 @@ const validateLogin = (event) => {
     history.replaceState(
       null,
       null,
-      "https://IDKSenpai.github.io/Learn-More-/html/home_page.html"
+      "https://IDKSenpai.github.io/Learn-More/html/home_page.html"
     );
     window.location.href = window.location.href =
-      "https://IDKSenpai.github.io/Learn-More-/html/home_page.html";
+      "https://IDKSenpai.github.io/Learn-More/html/home_page.html";
     return true;
   }
 
